@@ -1,0 +1,42 @@
+.col-form {
+  width: 100%;
+  position: relative;
+  margin: 0 auto 20px;
+}
+
+.col-btn {
+  width: 70%;
+  display: block;
+  margin: 0 auto 20px;
+  text-align: center;
+  padding: 13px 0;
+  color: white;
+}
+
+.col-form {
+  width: 13.88%;
+  margin: 0 auto 20px;
+}
+
+
+.col-btn {
+  width: 9.35%;
+  margin: 0 auto 20px;
+  color: black;
+}
+
+.home p {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+}
+
+.home {
+  color: black;
+}
+
+.error {
+  display: none;
+  color: red;
+  font-size: 12px;
+}

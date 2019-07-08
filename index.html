@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="home">
+        <div class="container">
+            <div class="row">
+                <h2>Какая же классная у меня форма</h2>
+                <p class="explain">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                <form action="">
+                    <div class="col-form col-form-name">
+                        <input class="name" type="text" placeholder="Name">
+                        <div class="error">Отсутсвует ваше имя или вы не используете латиницу</div>
+
+                    </div>
+                    <div class="col-form col-form-email">
+                        <input class="email" type="email" placeholder="Email">
+                        <div class="error">Отсутсвует email или "@" в нём нет</div>
+
+                    </div>
+                    <div class="col-form col-form-phone">
+                        <input class="phone" type="text" placeholder="Phone">
+                        <div class="error">Отсутсвует номер телефона или введенено меньше 10 значений</div>
+
+                    </div>
+                    <button type="submit" class="col-btn">отправить</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+
+</html>
